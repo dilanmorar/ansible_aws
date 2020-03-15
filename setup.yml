@@ -5,7 +5,7 @@
 
     - name: Provision a set of instances
       ec2:
-         key_name: my_key
+         key_name: dilan_aws
          group: test
          instance_type: t2.micro
          aws_access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
